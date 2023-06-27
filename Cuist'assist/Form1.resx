@@ -117,17 +117,177 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="accountPage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="accountPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="accountPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 567</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="accountPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="accountPage1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;accountPage1.Name" xml:space="preserve">
+    <value>accountPage1</value>
+  </data>
+  <data name="&gt;&gt;accountPage1.Type" xml:space="preserve">
+    <value>Cuist_assist.AccountPage, "Cuist'assist", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;accountPage1.Parent" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;accountPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="addPage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="addPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="addPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 567</value>
+  </data>
+  <data name="addPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="addPage1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;addPage1.Name" xml:space="preserve">
+    <value>addPage1</value>
+  </data>
+  <data name="&gt;&gt;addPage1.Type" xml:space="preserve">
+    <value>Cuist_assist.AddPage, "Cuist'assist", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addPage1.Parent" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;addPage1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="favoritePage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="favoritePage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="favoritePage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 567</value>
+  </data>
+  <data name="favoritePage1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="favoritePage1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;favoritePage1.Name" xml:space="preserve">
+    <value>favoritePage1</value>
+  </data>
+  <data name="&gt;&gt;favoritePage1.Type" xml:space="preserve">
+    <value>Cuist_assist.FavoritePage, "Cuist'assist", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;favoritePage1.Parent" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;favoritePage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="searchPage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="searchPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="searchPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 567</value>
+  </data>
+  <data name="searchPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;searchPage1.Name" xml:space="preserve">
+    <value>searchPage1</value>
+  </data>
+  <data name="&gt;&gt;searchPage1.Type" xml:space="preserve">
+    <value>Cuist_assist.SearchPage, "Cuist'assist", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchPage1.Parent" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;searchPage1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="navbar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="navbar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 567</value>
+  </data>
+  <data name="navbar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="navbar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 70</value>
+  </data>
+  <data name="navbar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;navbar1.Name" xml:space="preserve">
+    <value>navbar1</value>
+  </data>
+  <data name="&gt;&gt;navbar1.Type" xml:space="preserve">
+    <value>Cuist_assist.Navbar, "Cuist'assist", Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;navbar1.Parent" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;navbar1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlPagesDisplay.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlPagesDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlPagesDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 637</value>
+  </data>
+  <data name="pnlPagesDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlPagesDisplay.Name" xml:space="preserve">
+    <value>pnlPagesDisplay</value>
+  </data>
+  <data name="&gt;&gt;pnlPagesDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPagesDisplay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPagesDisplay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1037, 637</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
