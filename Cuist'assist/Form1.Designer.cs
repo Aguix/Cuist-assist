@@ -30,6 +30,7 @@
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.AppWorkspace;
 			this.Name = "Form1";
 			this.ResumeLayout(false);
 
