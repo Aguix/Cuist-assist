@@ -76,6 +76,7 @@
 			this.BackColor = System.Drawing.SystemColors.AppWorkspace;
 			this.Controls.Add(this.pnlPagesDisplay);
 			this.Name = "Form1";
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.pnlPagesDisplay.ResumeLayout(false);
 			this.ResumeLayout(false);
 

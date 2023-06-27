@@ -17,8 +17,6 @@ namespace Cuist_assist {
 			InitializeComponent();
 			active_page = btnSearch;
 			this.Resize += PanelFond_Resize;
-
-			updateNavbar(active_page);
 		}
 
 
@@ -52,16 +50,14 @@ namespace Cuist_assist {
 			int milieu = this.ClientSize.Width / 2;
 			int space = this.ClientSize.Width / 25;
 
-			try {
-				updateNavbar(active_page);
-			} catch {
-			}
 
 			btnFavorite.Location = new Point(milieu - space - btnFavorite.Width, btnSearch.Location.Y);
 			btnAdd.Location = new Point(milieu + space, btnSearch.Location.Y);
 
 			btnSearch.Location = new Point(btnFavorite.Location.X - space * 2 - btnSearch.Width, btnSearch.Location.Y);
 			btnAccount.Location = new Point(btnAdd.Location.X + space * 2 + btnAdd.Width, btnSearch.Location.Y);
+			
+			updateNavbar(active_page);
 		}
 
 

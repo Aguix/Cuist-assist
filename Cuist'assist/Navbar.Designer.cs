@@ -25,11 +25,11 @@
 		private void InitializeComponent() {
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Navbar));
 			this.PanelFond = new System.Windows.Forms.Panel();
-			this.pnl_active_page = new Cuist_assist.CustomPanel();
 			this.btnFavorite = new System.Windows.Forms.Button();
 			this.btnAccount = new System.Windows.Forms.Button();
 			this.btnAdd = new System.Windows.Forms.Button();
 			this.btnSearch = new System.Windows.Forms.Button();
+			this.pnl_active_page = new Cuist_assist.CustomPanel();
 			this.PanelFond.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -48,16 +48,6 @@
 			this.PanelFond.Name = "PanelFond";
 			this.PanelFond.Size = new System.Drawing.Size(980, 70);
 			this.PanelFond.TabIndex = 0;
-			// 
-			// pnl_active_page
-			// 
-			this.pnl_active_page.BackColor = System.Drawing.Color.White;
-			this.pnl_active_page.BorderRadius = 5;
-			this.pnl_active_page.ForeColor = System.Drawing.Color.White;
-			this.pnl_active_page.Location = new System.Drawing.Point(186, 50);
-			this.pnl_active_page.Name = "pnl_active_page";
-			this.pnl_active_page.Size = new System.Drawing.Size(50, 5);
-			this.pnl_active_page.TabIndex = 4;
 			// 
 			// btnFavorite
 			// 
@@ -146,6 +136,16 @@
 			this.btnSearch.Click += new System.EventHandler(this.btnClick);
 			this.btnSearch.MouseEnter += new System.EventHandler(this.btnMouseEnter);
 			this.btnSearch.MouseLeave += new System.EventHandler(this.btnMouseLeave);
+			// 
+			// pnl_active_page
+			// 
+			this.pnl_active_page.BackColor = System.Drawing.Color.White;
+			this.pnl_active_page.BorderRadius = 5;
+			this.pnl_active_page.ForeColor = System.Drawing.Color.White;
+			this.pnl_active_page.Location = new System.Drawing.Point(186, 50);
+			this.pnl_active_page.Name = "pnl_active_page";
+			this.pnl_active_page.Size = new System.Drawing.Size(50, 5);
+			this.pnl_active_page.TabIndex = 4;
 			// 
 			// Navbar
 			// 
