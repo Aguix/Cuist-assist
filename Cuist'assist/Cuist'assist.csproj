@@ -58,6 +58,9 @@
     <Compile Include="AddPage.Designer.cs">
       <DependentUpon>AddPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CustomCheckbox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -76,6 +79,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Header_recipe_result.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header_recipe_result.Designer.cs">
+      <DependentUpon>Header_recipe_result.cs</DependentUpon>
+    </Compile>
     <Compile Include="Navbar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -90,6 +99,12 @@
     <Compile Include="SearchPage.Designer.cs">
       <DependentUpon>SearchPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Search_result.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search_result.Designer.cs">
+      <DependentUpon>Search_result.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AccountPage.resx">
       <DependentUpon>AccountPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +117,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Header_recipe_result.resx">
+      <DependentUpon>Header_recipe_result.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Navbar.resx">
       <DependentUpon>Navbar.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,9 +131,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SearchPage.resx">
       <DependentUpon>SearchPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_result.resx">
+      <DependentUpon>Search_result.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
@@ -132,6 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app_icons\bin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

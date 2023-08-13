@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
+using System.ComponentModel;
 
 namespace Cuist_assist {
-	internal class CustomCheckbox : CheckBox {
+	public class CustomButton : Button {
 		private int borderSize = 0;
-		private int borderRadius = 40;
+		private int borderRadius = 30;
 		private Color mainColor = Color.FromArgb(97, 11, 52);
 
 
@@ -23,22 +19,22 @@ namespace Cuist_assist {
 			}
 		}
 
-		public CustomCheckbox() {
-			this.Text = "Checkbox";
+		public CustomButton() {
+			this.Text = "Button";
 			this.TextAlign = ContentAlignment.MiddleCenter;
 			this.Cursor = Cursors.Hand;
 
 			this.AutoSize = false;
 			//base.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-			this.Size = new Size(100, 50);
+			this.Size = new Size(90, 50);
 
 			this.Resize += new EventHandler(Button_Resize);
-			this.MinimumSize = new Size(100,50);
+			this.MinimumSize = new Size(90, 30);
 
 			this.FlatStyle = FlatStyle.Flat;
-			this.Appearance = Appearance.Button;
+			//this.Appearance = Appearance.Button;
 			this.BackColor = mainColor;
-			this.FlatAppearance.CheckedBackColor = Color.FromArgb(148, 26, 128);
+			this.FlatAppearance.CheckedBackColor = Color.FromArgb(142, 7, 72);
 			this.ForeColor = Color.White;
 
 			this.FlatAppearance.BorderSize = 0;

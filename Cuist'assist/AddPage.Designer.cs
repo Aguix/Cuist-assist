@@ -41,6 +41,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.label1);
 			this.Name = "AddPage";
+			this.Size = new System.Drawing.Size(984, 491);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
