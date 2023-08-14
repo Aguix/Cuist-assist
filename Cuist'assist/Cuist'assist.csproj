@@ -93,6 +93,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recipe_card.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recipe_card.Designer.cs">
+      <DependentUpon>Recipe_card.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -133,6 +139,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recipe_card.resx">
+      <DependentUpon>Recipe_card.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SearchPage.resx">
       <DependentUpon>SearchPage.cs</DependentUpon>
     </EmbeddedResource>

@@ -13,7 +13,7 @@ namespace Cuist_assist {
     public partial class Header : UserControl
     {
 
-        private List<String> ingredients_choisis = new List<String>();
+        private List<String> selected_ingredients_str = new List<String>();
         private int budget = 0;
         private int temps = 0;
         private int note_min = 0;
@@ -27,16 +27,16 @@ namespace Cuist_assist {
         }
 
 
-        public void update(List<String> ingredients_choisis, int budget, int temps, int note) {
-			this.ingredients_choisis = ingredients_choisis;
+        public void update(List<String> selected_ingredients_str, int budget, int time, int note) {
+			this.selected_ingredients_str = selected_ingredients_str;
 			this.budget = budget;
-			this.temps = temps;
+			this.temps = time;
             this.note_min = note;
 
-			lblIngredients.Text = "Ingredients sélectionnés : " + string.Join(", ", ingredients_choisis);
+			lblIngredients.Text = "Ingredients sélectionnés : " + string.Join(", ", selected_ingredients_str);
             txtBudget.Text = budget.ToString();
-            ctbTemps.Value = temps;
-            txtNote.Text = note_min.ToString();
+            ctbTemps.Value = time;
+            ctb_note.Text = note_min.ToString();
         }
 
         private void Header_Load(object sender, EventArgs e)
@@ -102,9 +102,9 @@ namespace Cuist_assist {
             lblNote.Width = (int)Math.Truncate(this.Width * 0.051301);
             lblNote.Height = (int)Math.Truncate(this.Height * 0.129032);
 
-            txtNote.Location = new Point((int)Math.Truncate(this.Width * 0.354350), (int)Math.Truncate(this.Height * 0.579677));
-            txtNote.Width = (int)Math.Truncate(this.Width * 0.068564);
-            txtNote.Height = (int)Math.Truncate(this.Height * 0.129032);
+            ctb_note.Location = new Point((int)Math.Truncate(this.Width * 0.354350), (int)Math.Truncate(this.Height * 0.579677));
+            ctb_note.Width = (int)Math.Truncate(this.Width * 0.068564);
+            ctb_note.Height = (int)Math.Truncate(this.Height * 0.129032);
 
             lblTemps.Location = new Point((int)Math.Truncate(this.Width * 0.441813), (int)Math.Truncate(this.Height * 0.566774));
             lblTemps.Width = (int)Math.Truncate(this.Width * 0.093692);

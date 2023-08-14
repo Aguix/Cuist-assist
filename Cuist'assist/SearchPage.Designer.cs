@@ -476,8 +476,7 @@
 			this.Controls.Add(this.cpn_Ingredients);
 			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.Name = "SearchPage";
-			this.Padding = new System.Windows.Forms.Padding(15);
-			this.Size = new System.Drawing.Size(1758, 992);
+			this.Size = new System.Drawing.Size(1172, 661);
 			this.cpn_Note.ResumeLayout(false);
 			this.cpn_Note.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.trkb_note)).EndInit();

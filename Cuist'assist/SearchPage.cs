@@ -22,7 +22,7 @@ namespace Cuist_assist {
 		private List<String> str_ingredients_choisis = new List<String>();
 		private List<int> ids_ingredients_choisis = new List<int>();
 		private List<int> ids_type_plats = new List<int>();
-		private int budget = 0;
+		private int budget = 3;
 		private int duree = 0;
 		private int note_min = 0;
 
@@ -33,6 +33,7 @@ namespace Cuist_assist {
 			InitializeComponent();
 
 			this.Resize += SearchPage_Replace;
+			this.Padding = new System.Windows.Forms.Padding(15);
 
 			try {
 				ChargementDsLocal();
@@ -254,30 +255,6 @@ namespace Cuist_assist {
 			}
 		}
 
-
-		
-
-		private void btn_recherche_Click(object sender, EventArgs e) {
-			bool error = false;
-			if(ids_ingredients_choisis.Count == 0) {
-				error = true;
-				MessageBox.Show("Il faut séléctionner au moins un ingrédient.");
-			}
-			if(ids_type_plats.Count == 0) {
-				error = true;
-				MessageBox.Show("Il faut choisir au moins un type de plat.");
-			}
-
-
-			if(!error) {
-				Search_result res = new Search_result(ids_ingredients_choisis, str_ingredients_choisis, ids_type_plats, budget, duree, note_min);
-				this.Controls.Add(res);
-				res.BringToFront();
-				res.Dock = DockStyle.Fill;
-			}
-		}
-
-
 		private void budget_checked(object sender, EventArgs e) {
 			RadioButton rdb = (RadioButton)sender;
 			budget = int.Parse(rdb.Tag.ToString());
@@ -302,6 +279,33 @@ namespace Cuist_assist {
 		private void trkb_note_ValueChanged(object sender, EventArgs e) {
 			this.note_min = trkb_note.Value;
 			lbl_note.Text = trkb_note.Value.ToString() + " / 5";
+		}
+
+
+
+
+
+
+
+		private void btn_recherche_Click(object sender, EventArgs e) {
+			bool error = false;
+			if(ids_ingredients_choisis.Count == 0) {
+				error = true;
+				MessageBox.Show("Il faut séléctionner au moins un ingrédient.");
+			}
+			if(ids_type_plats.Count == 0) {
+				error = true;
+				MessageBox.Show("Il faut choisir au moins un type de plat.");
+			}
+
+
+			if(!error) {
+				this.Padding = Padding.Empty;
+				Search_result res = new Search_result(ids_ingredients_choisis, str_ingredients_choisis, ids_type_plats, budget, duree, note_min);
+				this.Controls.Add(res);
+				res.BringToFront();
+				res.Dock = DockStyle.Fill;
+			}
 		}
 	}
 }
